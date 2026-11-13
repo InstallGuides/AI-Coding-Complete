@@ -1,0 +1,8 @@
+# Secrets: never commit these
+.env
+
+# The Finder's view settings for each folder
+.DS_Store
+
+# Python's caches, made when the check script runs
+__pycache__/

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="t">
+  <title id="t">Hills under an evening sky</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6c48f"/>
+      <stop offset="1" stop-color="#f3e3c3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" fill="url(#sky)"/>
+  <circle cx="900" cy="120" r="48" fill="#fbe7b0"/>
+  <path d="M0 220 Q 200 150 420 205 T 820 190 T 1200 200 V300 H0 Z" fill="#7aa37a"/>
+  <path d="M0 255 Q 260 205 560 250 T 1200 240 V300 H0 Z" fill="#4f7d5c"/>
+</svg>

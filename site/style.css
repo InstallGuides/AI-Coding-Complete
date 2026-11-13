@@ -1,0 +1,44 @@
+/* One stylesheet for every page of the site. */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background: #fbfaf7;
+}
+
+header img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+main,
+nav,
+footer {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+nav {
+  padding-top: 1rem;
+}
+
+nav a {
+  margin-right: 1rem;
+  color: #2f5d43;
+}
+
+h1 {
+  margin-top: 1.5rem;
+  font-size: 2rem;
+}
+
+footer {
+  margin-top: 3rem;
+  padding-bottom: 2rem;
+  font-size: 0.9rem;
+  color: #666;
+}
