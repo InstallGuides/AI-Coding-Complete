@@ -10,7 +10,7 @@ It's one of the example projects from [Mac Install Guide](https://mac.install.gu
 
 ## Get it
 
-**With an app.** In the Yaxed editor, choose **File > New Project**.
+**With an app.** The [Set Up Your Mac](https://mac.install.guide/set-up-your-mac/) apps create this project for people who write code, after they set up the Mac. In the Yaxed editor, choose **File > New Project**.
 
 **Without an app.** Make your own copy on GitHub with **Use this template**, or download the `.zip` from the latest release and unzip it into a folder of your own.
 
