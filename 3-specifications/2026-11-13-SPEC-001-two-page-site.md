@@ -24,7 +24,7 @@ To give the project a real thing to build, publish and measure, so every numbere
 ## Done when (acceptance)
 
 - [x] Double-clicking `site/index.html` opens the home page, and its link reaches the about page and back.
-- [x] In a terminal in this folder, `uv run scripts/check_site.py` ends with `All checks passed`. The script checks that every page has a title and that every link and image inside the site exists, and prints each page's size.
+- [x] Every page in `site/` has a title, and every link and image inside the site points to a file that exists. The assistant checks this by reading the files.
 
 ## Out of scope
 

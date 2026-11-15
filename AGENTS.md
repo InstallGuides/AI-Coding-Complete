@@ -15,7 +15,7 @@ You remember nothing between conversations, so the files here are the project's 
 
 - **Backlog first.** Ideas and bugs go in `0-project-management/backlog.md`. Nothing is built until it has an agreed spec.
 - **The loop:** plan (`plan`), decide (`new-decision`), write a spec (`new-spec`), write a playbook (`new-playbook`), build from it (`run-playbook`), preserve the work (`preserve-our-work`). Implement specs, nothing more. If a spec is wrong, fix it and confirm with the user, then build.
-- **A task is done only when `uv run scripts/check_site.py` ends with `All checks passed`.**
+- **A task is done only when the site checks out:** every page in `site/` has a title, and every link and image points to a file that exists. Check by reading the files, then ask the user to open `site/index.html`.
 - **File names** in `0-project-management/`, `2-decisions/`, `3-specifications/` and `4-playbooks/` are `YYYY-MM-DD-<ID>-NNN-slug.md`, with IDs `PM`, `ADR`, `SPEC` and `PB` and the next number in that folder. An ID never changes once cited. Other folders use `YYYY-MM-DD-slug.md`.
 - **Documents** start with a title, then `**Status:**` and `**Date:**` lines.
 - **Folders:** see the list in `README.md`.

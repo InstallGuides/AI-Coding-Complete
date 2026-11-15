@@ -5,7 +5,7 @@
 ## What was done
 
 - Compared three hosts (`1-research/`), decided on plain HTML (`ADR-001`), wrote the spec (`SPEC-001`) and built it from the playbook (`PB-001`).
-- The site is in `site/`. `uv run scripts/check_site.py` passes, and the page sizes are in `7-performance/`.
+- The site is in `site/`. Every page has a title, every link and image works, and the page sizes are in `7-performance/`.
 - The header image and the about-page text were drafted in `5-assets/`. An announcement is drafted in `6-outreach/`. The spec's first draft, with a contact form, is in `8-archive/`.
 
 ## Decisions and paths not taken

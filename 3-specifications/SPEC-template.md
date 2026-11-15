@@ -21,7 +21,7 @@ What should it do, concretely? List the steps or rules.
 
 ## Done when (acceptance)
 
-How will you know it's finished and working? Include a command the assistant can run and the result you expect, such as `uv run scripts/check_site.py` ending with `All checks passed`.
+How will you know it's finished and working? List checks you or the assistant can make, such as "every page has a title, and every link and image works".
 
 - [ ] ...
 

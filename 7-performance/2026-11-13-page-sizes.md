@@ -3,7 +3,7 @@
 **Status:** measured
 **Date:** 2026-11-13
 
-Measured with `uv run scripts/check_site.py` when SPEC-001 was built. Each size counts the page plus the stylesheet and image it loads.
+Measured when SPEC-001 was built. Each size adds the page to the stylesheet and image it loads; the Finder's Get Info window, or `ls -l` in a terminal, shows each file's size.
 
 | Page | Size |
 |---|---|

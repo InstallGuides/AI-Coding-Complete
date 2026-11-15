@@ -12,7 +12,7 @@ Write the site as plain HTML files and one CSS stylesheet in `site/`, with no fr
 ## Why
 
 - Two pages don't need a framework. Plain files open in a browser with a double-click, so you can see every change at once.
-- Nothing to install beyond what the check script uses (uv, which runs Python).
+- Nothing to install: a web browser is all you need to see the site.
 - Every host compared in `1-research/2026-11-13-hosting-options.md` publishes a plain folder as it is.
 
 ## Alternatives considered
