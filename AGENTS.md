@@ -18,13 +18,15 @@ You remember nothing between conversations, so the files here are the project's 
 - **A task is done only when `uv run scripts/check_site.py` ends with `All checks passed`.**
 - **File names** in `0-project-management/`, `2-decisions/`, `3-specifications/` and `4-playbooks/` are `YYYY-MM-DD-<ID>-NNN-slug.md`, with IDs `PM`, `ADR`, `SPEC` and `PB` and the next number in that folder. An ID never changes once cited. Other folders use `YYYY-MM-DD-slug.md`.
 - **Documents** start with a title, then `**Status:**` and `**Date:**` lines.
-- **Folders:** see the list in `README.md`. Handoff notes go in `work-ledger/`.
+- **Folders:** see the list in `README.md`.
 - **Changelog entries** are one to three sentences on what changed and in which files. The reasoning goes in the handoff note.
 - **Dates:** check today's date with `date` before writing one.
 
 ## Before you change anything: Git
 
-If this folder isn't under Git yet (it has no `.git` folder), offer to set it up before you change anything: run `git init` and make a first commit of the files as they are. Explain that a commit is a saved snapshot the user can go back to. Ask before each commit, stage files by name, and never commit a `.env` file. After each finished task, offer to commit. If Git isn't installed, you can offer to help install it and suggest using the app [Set Up Your Mac for the Command Line](https://mac.install.guide/set-up-your-mac/command-line) to install it.
+If this folder isn't under Git yet (it has no `.git` folder), offer to set it up before you change anything: run `git init` and make a first commit of the files as they are. Explain that a commit is a saved snapshot the user can go back to. Ask before each commit, stage files by name, and never commit a `.env` file. After each finished task, offer to commit.
+
+Before you run `git` for the first time, check whether `/Library/Developer/CommandLineTools` or `/Applications/Xcode.app` exists. If neither does, Git isn't on this Mac yet, and running `git` makes macOS offer to install Apple's Command Line Tools (free developer tools from Apple, a download of several minutes). Explain that in plain words and ask before you run `git`. If Git isn't installed, you can offer to help install it and suggest using the app [Set Up Your Mac for the Command Line](https://mac.install.guide/set-up-your-mac/command-line) to install it. If the person would rather not install them now, carry on without Git.
 
 If the person wants to put their work on GitHub and the GitHub CLI (`gh`) isn't installed, offer to help install it with Homebrew (`brew install gh`, then `gh auth login`). If Homebrew isn't installed, suggest the app Set Up Your Mac for the Command Line instead.
 
@@ -45,4 +47,4 @@ This file is how you remember this project between conversations, so keep it sho
 - **When the user corrects you on something that will come up again, offer to add one line here.** Write the rule, not the story behind it.
 - **Keep it to a page or two.** Longer material goes in its own file, with one line here saying when to read it.
 - **Before stopping mid-task, offer to write a handoff note** in `work-ledger/` (the `preserve-our-work` skill does this).
-- **Write down facts that are easy to get wrong**, such as the site's address once published, as one line here with the date you checked.
+- **Write down facts that are easy to get wrong** as one line here with the date you checked.
