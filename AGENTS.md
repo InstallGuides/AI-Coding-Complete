@@ -26,6 +26,8 @@ You remember nothing between conversations, so the files here are the project's 
 
 If this folder isn't under Git yet (it has no `.git` folder), offer to set it up before you change anything: run `git init` and make a first commit of the files as they are. Explain that a commit is a saved snapshot the user can go back to. Ask before each commit, stage files by name, and never commit a `.env` file. After each finished task, offer to commit.
 
+If the person wants to put their work on GitHub and the GitHub CLI (`gh`) isn't installed, offer to help install it with Homebrew (`brew install gh`, then `gh auth login`). If Homebrew isn't installed, suggest the app Set Up Your Mac for the Command Line instead.
+
 ## Tools on this Mac
 
 Check what is installed (for example `uv --version`) before you install anything, and ask first.
