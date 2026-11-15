@@ -4,7 +4,7 @@ Using your own copy? Open `README.md` in this folder to start.
 
 A full-size starter for building software with an AI assistant, the spec-driven way. It has all nine numbered folders, from planning to measuring, a backlog, handoff notes, and a worked example: a small website built from a spec, with a check the assistant runs before calling a task done.
 
-*Step 3 of 3: the same method at the size of a real project.* Start with [AI-Coding-Lite](https://github.com/InstallGuides/AI-Coding-Lite) if this is your first spec-driven project.
+*Spec-driven development at the size of a real project. Related: [AI-Coding-Lite](https://github.com/InstallGuides/AI-Coding-Lite).*
 
 It's one of the example projects from [Mac Install Guide](https://mac.install.guide/developer-setup/starter-project).
 

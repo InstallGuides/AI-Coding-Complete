@@ -2,7 +2,7 @@
 
 This folder is a full-size example of spec-driven development with an AI assistant: the method from AI-Coding-Lite, laid out for a project that runs for months. Its worked example is a small website you can make your own.
 
-*Step 3 of 3: the same method at the size of a real project.*
+*Spec-driven development at the size of a real project. Related: [AI-Coding-Lite](https://github.com/InstallGuides/AI-Coding-Lite).*
 
 ## Open this folder with your AI assistant
 
