@@ -24,7 +24,7 @@ You remember nothing between conversations, so the files here are the project's 
 
 ## Before you change anything: Git
 
-If this folder isn't under Git yet (it has no `.git` folder), offer to set it up before you change anything: run `git init` and make a first commit of the files as they are. Explain that a commit is a saved snapshot the user can go back to. Ask before each commit, stage files by name, and never commit a `.env` file. After each finished task, offer to commit.
+If this folder isn't under Git yet (it has no `.git` folder), offer to set it up before you change anything: run `git init` and make a first commit of the files as they are. Explain that a commit is a saved snapshot the user can go back to. Ask before each commit, stage files by name, and never commit a `.env` file. After each finished task, offer to commit. If Git isn't installed, you can offer to help install it and suggest using the app [Set Up Your Mac for the Command Line](https://mac.install.guide/set-up-your-mac/command-line) to install it.
 
 If the person wants to put their work on GitHub and the GitHub CLI (`gh`) isn't installed, offer to help install it with Homebrew (`brew install gh`, then `gh auth login`). If Homebrew isn't installed, suggest the app Set Up Your Mac for the Command Line instead.
 
